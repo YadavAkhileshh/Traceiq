@@ -109,8 +109,8 @@ The Gradio interface launches at the bottom of each notebook — no extra setup 
 ## Folder Structure
 
 ```
-PAIML/
-├── README.md                                        ← you are here
+Traceiq/
+├── README.md                                        
 │
 ├── 01_TraceIQ_PDF_RAG/
 │   ├── TraceIQ_PDF.ipynb                            ← Notebook 1: PDF RAG
