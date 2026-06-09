@@ -33,12 +33,12 @@ This reduces hallucinations (made-up answers) and lets you ask questions about y
 | Folder | Notebook | What I Learned |
 |--------|----------|----------------|
 | 01_TraceIQ_PDF_RAG | TraceIQ — PDF RAG | Hybrid retrieval from PDFs: semantic search + BM25 + reranking |
-| 2 | TraceIQ — Advanced RAG | Multi-source search across GitHub repos, PDFs, and text with AST code parsing |
-| 3 | Contextual Retrieval | Metadata schemas, parent-child chunks, smarter context at retrieval time |
-| 4 | Graph RAG | Turning a code repository into a knowledge graph and searching it structurally |
-| 5 | Agentic RAG | A system that plans what to retrieve instead of just retrieving once |
-| 6 | Self-Correcting Code Agent | An agent that writes code, runs it, fixes its own errors, and verifies output |
-| 7 | Benchmarking | Comparing all architectures side-by-side using real metrics |
+| 02_TraceIQ_Advanced_RAG | TraceIQ — Advanced RAG | Multi-source search across GitHub repos, PDFs, and text with AST code parsing |
+| 03_Contextual_Retrieval | Contextual Retrieval | Metadata schemas, parent-child chunks, smarter context at retrieval time |
+| 04_Graph_RAG | Graph RAG | Turning a code repository into a knowledge graph and searching it structurally |
+| 05_Agentic_RAG | Agentic RAG | A system that plans what to retrieve instead of just retrieving once |
+| 06_Self_Correcting_Agent | Self-Correcting Code Agent | An agent that writes code, runs it, fixes its own errors, and verifies output |
+| 07_Benchmarking | Benchmarking | Comparing all architectures side-by-side using real metrics |
 
 ---
 
@@ -116,29 +116,27 @@ PAIML/
 │   ├── TraceIQ_PDF.ipynb                            ← Notebook 1: PDF RAG
 │   └── README.md
 │
-├── 2/
+├── 02_TraceIQ_Advanced_RAG/
 │   ├── 1_2DTraceIQ_Advanced_RAG_.ipynb              ← Notebook 2: Advanced RAG
-│   ├── README.md
-│   ├── app.py
-│   └── requirements.txt
+│   └── README.md
 │
-├── 3/
+├── 03_Contextual_Retrieval/
 │   ├── 2D_metadata_contextual_retrieval.ipynb       ← Notebook 3: Contextual Retrieval
 │   └── README.md
 │
-├── 4/
+├── 04_Graph_RAG/
 │   ├── 3D_graph_rag.ipynb                           ← Notebook 4: Graph RAG
 │   └── README.md
 │
-├── 5/
+├── 05_Agentic_RAG/
 │   ├── 4D_agentic_rag_.ipynb                        ← Notebook 5: Agentic RAG
 │   └── README.md
 │
-├── 6/
+├── 06_Self_Correcting_Agent/
 │   ├── 5D_rlm_repl_fixed.ipynb                      ← Notebook 6: Self-Correcting Agent
 │   └── README.md
 │
-└── 7/
+└── 07_Benchmarking/
     ├── 6D_comparative_eval.ipynb                    ← Notebook 7: Benchmarking
     └── README.md
 ```
